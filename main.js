@@ -2,7 +2,7 @@
 
 setInterval(function () {
   fetchData();
-}, 20000);
+}, 2000);
 function fetchData() {
   fetch("https://jsonplaceholder.typicode.com/posts")
     .then(function (response) {
